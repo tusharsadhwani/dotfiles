@@ -1,0 +1,158 @@
+{
+  "advancedNewFile.exclude": {
+    "node_modules": true,
+    "build": true,
+    "dist": true
+  },
+  "bracketPairColorizer.consecutivePairColors": [
+    ["<", "</"],
+    ["<", "/>"],
+    [
+      "LightGreen",
+      "Gold",
+      "Orchid",
+      "LightSkyBlue",
+      "Orange",
+      "LawnGreen",
+      "DarkOrange",
+      "Cornsilk"
+    ],
+    "Red"
+  ],
+  "bracket-pair-colorizer-2.colors": [
+    "LightGreen",
+    "Gold",
+    "Orchid",
+    "LightSkyBlue",
+    "Orange",
+    "LawnGreen",
+    "DarkOrange",
+    "Cornsilk"
+  ],
+  "debug.openDebug": "openOnDebugBreak",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.fontFamily": "FiraCode NF, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.formatOnSave": true,
+  // "editor.formatOnSaveMode": "modifications",
+  "editor.renameOnType": true,
+  "editor.renderControlCharacters": false,
+  "editor.rulers": [80],
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "emmet.includeLanguages": {
+    "vue-html": "html",
+    "javascript": "javascriptreact"
+  },
+  "explorer.confirmDragAndDrop": false,
+  // "files.autoSave": "afterDelay",
+  // "files.autoSaveDelay": 1000,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "go.useLanguageServer": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "materialTheme.accent": "Indigo",
+  "python.languageServer": "Microsoft",
+  "python.linting.lintOnSave": true,
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=lxml,pygame",
+    "--unsafe-load-any-extension=y"
+  ],
+  "python.linting.pylintCategorySeverity.refactor": "Information",
+  "python.linting.pylintEnabled": true,
+  "python.linting.mypyArgs": [
+    "--ignore-missing-imports",
+    "--follow-imports=silent",
+    "--show-column-numbers",
+    "--strict"
+  ],
+  "python.linting.mypyEnabled": true,
+  "python.pythonPath": "C:\\Users\\tusha\\.pyenv\\pyenv-win\\versions\\3.8.1-amd64\\python.exe",
+  "python.showStartPage": false,
+  "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
+  "settingsSync.ignoredSettings": [
+    "python.pythonPath",
+    "terminal.integrated.rendererType"
+  ],
+  "svgPreview.autoOpen": false,
+  "svgPreview.style": {
+    "html": {
+      "background-position": "0 0, 13px 13px",
+      "background-size": "26px 26px",
+      "background-image": "linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414), linear-gradient(45deg, #141414 25%, transparent 25%, transparent 75%, #141414 75%, #141414)"
+    }
+  },
+  "terminal.integrated.fontFamily": "MesloLGS NF, FiraCode NF, Fira Code",
+  "terminal.integrated.rendererType": "dom",
+  "terminal.integrated.shellArgs.windows": ["-NoLogo"],
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "window.zoomLevel": 0,
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#5C6BC0",
+    "activityBar.activeBorder": "#5C6BC0",
+    "list.activeSelectionForeground": "#5C6BC0",
+    "list.inactiveSelectionForeground": "#5C6BC0",
+    "list.highlightForeground": "#5C6BC0",
+    "scrollbarSlider.activeBackground": "#5C6BC050",
+    "editorSuggestWidget.highlightForeground": "#5C6BC0",
+    "textLink.foreground": "#5C6BC0",
+    "progressBar.background": "#5C6BC0",
+    "pickerGroup.foreground": "#5C6BC0",
+    "tab.activeBorder": "#5C6BC0",
+    "notificationLink.foreground": "#5C6BC0",
+    "editorWidget.resizeBorder": "#5C6BC0",
+    "editorWidget.border": "#5C6BC0",
+    "settings.modifiedItemIndicator": "#5C6BC0",
+    "settings.headerForeground": "#5C6BC0",
+    "panelTitle.activeBorder": "#5C6BC0",
+    "breadcrumb.activeSelectionForeground": "#5C6BC0",
+    "menu.selectionForeground": "#5C6BC0",
+    "menubar.selectionForeground": "#5C6BC0",
+    "editor.findMatchBorder": "#5C6BC0",
+    "selection.background": "#5C6BC040",
+    "statusBarItem.remoteBackground": "#5C6BC0"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.startupEditor": "newUntitledFile",
+  "[dart]": {
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsoc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      {
+        "column": 72,
+        "color": "#282828"
+      },
+      100
+    ],
+    "editor.tabSize": 4
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
