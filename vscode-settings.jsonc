@@ -52,6 +52,7 @@
   "go.useLanguageServer": true,
   "liveServer.settings.donotShowInfoMsg": true,
   "materialTheme.accent": "Indigo",
+  "oneDarkPro.vivid": true,
   "python.languageServer": "Microsoft",
   "python.linting.lintOnSave": true,
   "python.linting.pylintArgs": [
@@ -87,7 +88,6 @@
   "terminal.integrated.shellArgs.windows": ["-NoLogo"],
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "window.zoomLevel": 0,
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#5C6BC0",
     "activityBar.activeBorder": "#5C6BC0",
@@ -113,6 +113,7 @@
     "selection.background": "#5C6BC040",
     "statusBarItem.remoteBackground": "#5C6BC0"
   },
+  "workbench.colorTheme": "One Dark Pro",
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[dart]": {
@@ -135,7 +136,7 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "[jsoc]": {
+  "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {
