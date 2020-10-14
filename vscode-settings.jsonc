@@ -8,7 +8,6 @@
     ["<", "</"],
     ["<", "/>"],
     [
-      "LightGreen",
       "Gold",
       "Orchid",
       "LightSkyBlue",
@@ -20,7 +19,6 @@
     "Red"
   ],
   "bracket-pair-colorizer-2.colors": [
-    "LightGreen",
     "Gold",
     "Orchid",
     "LightSkyBlue",
@@ -84,7 +82,6 @@
     }
   },
   "terminal.integrated.fontFamily": "MesloLGS NF, FiraCode NF, Fira Code",
-  "terminal.integrated.rendererType": "dom",
   "terminal.integrated.shellArgs.windows": ["-NoLogo"],
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
