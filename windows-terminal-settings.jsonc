@@ -29,7 +29,8 @@
         "name": "Ubuntu-20.04",
         "source": "Windows.Terminal.Wsl",
         "colorScheme": "One Half Dark",
-        "fontFace": "FiraCode NF",
+        "fontFace": "MesloLGS NF",
+        "fontWeight": "bold",
         "useAcrylic": true,
         "acrylicOpacity": 0.5
       },
