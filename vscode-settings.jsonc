@@ -27,13 +27,12 @@
     "DarkOrange",
     "Cornsilk"
   ],
+  "dart.previewLsp": true,
   "debug.openDebug": "openOnDebugBreak",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "FiraCode NF, Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
-  // "editor.formatOnSaveMode": "modifications",
-  "editor.renameOnType": true,
   "editor.renderControlCharacters": false,
   "editor.rulers": [80],
   "editor.suggestSelection": "first",
@@ -43,19 +42,20 @@
     "javascript": "javascriptreact"
   },
   "explorer.confirmDragAndDrop": false,
-  // "files.autoSave": "afterDelay",
-  // "files.autoSaveDelay": 1000,
   "git.autofetch": true,
   "git.enableSmartCommit": true,
+  "git.followTagsWhenSync": true,
   "go.useLanguageServer": true,
+  "license.author": "Tushar Sadhwani",
   "liveServer.settings.donotShowInfoMsg": true,
   "materialTheme.accent": "Indigo",
   "oneDarkPro.vivid": true,
-  "python.languageServer": "Microsoft",
+  "python.languageServer": "Pylance",
   "python.linting.lintOnSave": true,
   "python.linting.pylintArgs": [
     "--extension-pkg-whitelist=lxml,pygame",
-    "--unsafe-load-any-extension=y"
+    "--unsafe-load-any-extension=y",
+    "--good-names=i,j,k,T"
   ],
   "python.linting.pylintCategorySeverity.refactor": "Information",
   "python.linting.pylintEnabled": true,
@@ -66,7 +66,7 @@
     "--strict"
   ],
   "python.linting.mypyEnabled": true,
-  "python.pythonPath": "C:\\Users\\tusha\\.pyenv\\pyenv-win\\versions\\3.8.1-amd64\\python.exe",
+  "python.pythonPath": "/usr/bin/python",
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
   "settingsSync.ignoredSettings": [
