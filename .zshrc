@@ -15,8 +15,8 @@ export ZSH="/home/tushar/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+#ZSH_THEME="robbyrussell"
 ZSH_THEME="powerlevel10k/powerlevel10k"
-#ZSH_THEME="random"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -109,8 +109,15 @@ source $ZSH/oh-my-zsh.sh
 unsetopt autocd
 
 export PATH=$PATH:$HOME/flutter/bin
+export PATH=$PATH:$HOME/.pub-cache/bin
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
 
+export PATH=$PATH:$HOME/go/bin
+
+export PATH=$PATH:$HOME/Android/Sdk
+export PATH=$PATH:$HOME/Android/Sdk/platform-tools
+
+export PATH=$PATH:$HOME/.local/bin
 
 ######################################
 ##### stuff that gets auto-added #####
