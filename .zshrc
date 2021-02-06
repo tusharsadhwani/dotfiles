@@ -139,3 +139,4 @@ alias c=clear
 alias cls=clear
 alias pow=poweroff
 alias py=python
+alias docker=podman
