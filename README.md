@@ -1,6 +1,6 @@
-﻿# config
+# dotfiles
 
-My config for windows 10 and linux
+My dotfiles for windows 10 and linux
 
 ## VSCode
 
