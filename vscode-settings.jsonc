@@ -4,6 +4,7 @@
     "build": true,
     "dist": true
   },
+  "advancedNewFile.convenienceOptions": ["root"],
   "bracketPairColorizer.consecutivePairColors": [
     ["<", "</"],
     ["<", "/>"],
@@ -66,13 +67,10 @@
     "--strict"
   ],
   "python.linting.mypyEnabled": true,
-  "python.pythonPath": "/usr/bin/python",
+  "python.pythonPath": "/usr/bin/python3",
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
-  "settingsSync.ignoredSettings": [
-    "python.pythonPath",
-    "terminal.integrated.rendererType"
-  ],
+  "settingsSync.ignoredSettings": ["terminal.integrated.rendererType"],
   "svgPreview.autoOpen": false,
   "svgPreview.style": {
     "html": {
@@ -82,6 +80,7 @@
     }
   },
   "terminal.integrated.fontFamily": "MesloLGS NF, FiraCode NF, Fira Code",
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.shellArgs.windows": ["-NoLogo"],
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -123,11 +122,6 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.suggest.insertMode": "replace",
-    "gitlens.codeLens.scopes": ["document"]
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
