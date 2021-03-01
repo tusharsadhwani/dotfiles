@@ -46,6 +46,7 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.followTagsWhenSync": true,
+  "gitlens.keymap": "none",
   "go.useLanguageServer": true,
   "license.author": "Tushar Sadhwani",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -67,7 +68,6 @@
     "--strict"
   ],
   "python.linting.mypyEnabled": true,
-  "python.pythonPath": "/usr/bin/python3",
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
   "settingsSync.ignoredSettings": ["terminal.integrated.rendererType"],
