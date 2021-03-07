@@ -6,6 +6,7 @@ My dotfiles for windows 10 and linux
 
 - google-chrome
 - vscode
+- [nvm](https://github.com/nvm-sh/nvm)
 - [jetbrains-toolbox](https://www.jetbrains.com/toolbox-app/)
 - [podman](https://podman.io/getting-started/installation)
 - [flutter](https://flutter.dev/docs/get-started/install)
