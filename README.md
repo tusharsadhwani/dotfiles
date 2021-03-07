@@ -2,17 +2,26 @@
 
 My dotfiles for windows 10 and linux
 
-## VSCode
+## Linux Packages
 
-- [settings](./vscode-settings.jsonc)
-- [extensions](./vscode-extensions)
+- google-chrome
+- vscode
+- [jetbrains-toolbox](https://www.jetbrains.com/toolbox-app/)
+- [podman](https://podman.io/getting-started/installation)
+- [flutter](https://flutter.dev/docs/get-started/install)
+- [g (go version manager)](https://github.com/stefanmaric/g)
+- postgres:
+  - [debian/ubuntu/popOS](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-postgresql-on-ubuntu-20-04)
+  - [redhat/fedora](https://developer.fedoraproject.org/tech/database/postgresql/about.html)
+  - [arch/manjaro](https://dev.to/tusharsadhwani/how-to-setup-postgresql-on-manjaro-linux-arch-412l)
+- [micro editor](https://micro-editor.github.io)
+- scrcpy
 
 ## Windows 10
 
 - [mingw-w64](https://sourceforge.net/projects/mingw-w64/)
 - Chocolatey
   - git
-  - pyenv
   - nvm
   - yarn
   - scrcpy
@@ -32,14 +41,10 @@ My dotfiles for windows 10 and linux
 - [HashTab](http://implbits.com/products/hashtab/)
   (for file hashes in properties)
 
-## Arch Packages
+## VSCode
 
-- yay (`sudo pacman -S yay`)
-  - google-chrome
-  - jetbrains-toolbox
-  - scrcpy
-  - visual-studio-code-bin
-- [postgres](https://dev.to/tusharsadhwani/how-to-setup-postgresql-on-manjaro-linux-arch-412l)
+- [settings](./vscode-settings.jsonc)
+- [extensions](./vscode-extensions)
 
 ## Terminal
 
