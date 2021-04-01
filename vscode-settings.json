@@ -49,6 +49,7 @@
   "git.followTagsWhenSync": true,
   "gitlens.keymap": "none",
   "go.useLanguageServer": true,
+  "go.toolsManagement.autoUpdate": true,
   "license.author": "Tushar Sadhwani",
   "liveServer.settings.donotShowInfoMsg": true,
   "materialTheme.accent": "Indigo",
@@ -71,7 +72,10 @@
   "python.linting.mypyEnabled": true,
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
-  "settingsSync.ignoredSettings": ["terminal.integrated.rendererType"],
+  "settingsSync.ignoredSettings": [
+    "terminal.integrated.rendererType",
+    "python.pythonPath"
+  ],
   "svgPreview.autoOpen": false,
   "svgPreview.style": {
     "html": {
@@ -111,6 +115,12 @@
     "statusBarItem.remoteBackground": "#5C6BC0"
   },
   "workbench.colorTheme": "One Dark Pro",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[dart]": {

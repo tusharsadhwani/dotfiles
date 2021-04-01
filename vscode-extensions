@@ -13,7 +13,6 @@ Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 fabiospampinato.vscode-todo-plus
-go-flutter.hover
 golang.go
 kumar-harsh.graphql-for-vscode
 liximomo.sftp
@@ -31,6 +30,7 @@ patbenatar.advanced-new-file
 plibither8.remove-comments
 ritwickdey.LiveServer
 SimonSiefke.svg-preview
+tamasfe.even-better-toml
 Tyriar.lorem-ipsum
 ultram4rine.vscode-choosealicense
 vscode-icons-team.vscode-icons
