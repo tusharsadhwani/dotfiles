@@ -48,8 +48,8 @@
   "git.enableSmartCommit": true,
   "git.followTagsWhenSync": true,
   "gitlens.keymap": "none",
-  "go.useLanguageServer": true,
   "go.toolsManagement.autoUpdate": true,
+  "go.useLanguageServer": true,
   "license.author": "Tushar Sadhwani",
   "liveServer.settings.donotShowInfoMsg": true,
   "materialTheme.accent": "Indigo",
@@ -86,6 +86,7 @@
   },
   "terminal.integrated.fontFamily": "MesloLGS NF, FiraCode NF, Fira Code",
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.allowChords": false,
   "terminal.integrated.shellArgs.windows": ["-NoLogo"],
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
@@ -131,6 +132,9 @@
     "editor.suggestSelection": "first",
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": false
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
