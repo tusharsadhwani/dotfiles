@@ -54,3 +54,4 @@ My dotfiles for windows 10 and linux
 - [zshrc](./.zshrc)
 - [starship](https://starship.rs)
 - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
