@@ -20,15 +20,20 @@
     "when": "terminalFocus && terminalProcessSupported"
   },
   {
-    "key": "ctrl+m ctrl+p",
-    "command": "workbench.action.toggleMaximizedPanel"
-  },
-  {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
   },
   {
     "key": "ctrl+shift+tab",
     "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "ctrl+;",
+    "command": "workbench.action.toggleMaximizedPanel",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "-editor.action.toggleTabFocusMode"
   }
 ]
