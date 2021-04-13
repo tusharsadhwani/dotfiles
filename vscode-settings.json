@@ -56,13 +56,6 @@
   "oneDarkPro.vivid": true,
   "python.languageServer": "Pylance",
   "python.linting.lintOnSave": true,
-  "python.linting.pylintArgs": [
-    "--extension-pkg-whitelist=lxml,pygame",
-    "--unsafe-load-any-extension=y",
-    "--good-names=i,j,k,T"
-  ],
-  "python.linting.pylintCategorySeverity.refactor": "Information",
-  "python.linting.pylintEnabled": true,
   "python.linting.mypyArgs": [
     "--ignore-missing-imports",
     "--follow-imports=silent",
@@ -70,6 +63,13 @@
     "--strict"
   ],
   "python.linting.mypyEnabled": true,
+  "python.linting.pylintArgs": [
+    "--extension-pkg-whitelist=lxml,pygame",
+    "--unsafe-load-any-extension=y",
+    "--good-names=i,j,k,T"
+  ],
+  "python.linting.pylintCategorySeverity.refactor": "Information",
+  "python.linting.pylintEnabled": true,
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
   "settingsSync.ignoredSettings": [
@@ -88,7 +88,7 @@
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.allowChords": false,
   "terminal.integrated.shellArgs.windows": ["-NoLogo"],
-  "vsicons.dontShowNewVersionMessage": true,
+  "vsicons.dontShowNewVersionMessage": false,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#5C6BC0",
@@ -146,6 +146,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[python]": {

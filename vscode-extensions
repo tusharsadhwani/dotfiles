@@ -1,3 +1,4 @@
+adrianwilczynski.alpine-js-intellisense
 azemoh.one-monokai
 bradlc.vscode-tailwindcss
 BriteSnow.vscode-toggle-quotes
@@ -13,6 +14,8 @@ Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 fabiospampinato.vscode-todo-plus
+GitHub.github-vscode-theme
+GitHub.vscode-pull-request-github
 golang.go
 kumar-harsh.graphql-for-vscode
 liximomo.sftp
@@ -27,6 +30,7 @@ ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 octref.vetur
 patbenatar.advanced-new-file
+Perkovec.emoji
 plibither8.remove-comments
 ritwickdey.LiveServer
 SimonSiefke.svg-preview
@@ -36,4 +40,5 @@ ultram4rine.vscode-choosealicense
 vscode-icons-team.vscode-icons
 vscode-org-mode.org-mode
 WallabyJs.quokka-vscode
+yzhang.markdown-all-in-one
 zhuangtongfa.material-theme
