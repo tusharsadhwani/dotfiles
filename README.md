@@ -50,8 +50,7 @@ My dotfiles for windows 10 and linux
 ## Terminal
 
 - Font: MesloLGS
-- [Oh my zsh](https://github.com/ohmyzsh/ohmyzsh)
-- [zshrc](./.zshrc)
 - [starship](https://starship.rs)
-- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
-- [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
+- [zshrc](./.zshrc)
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [zsh-nvm](https://github.com/lukechilds/zsh-nvm)

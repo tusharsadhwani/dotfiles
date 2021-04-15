@@ -1,10 +1,3 @@
-export ZSH="/home/tushar/.oh-my-zsh"
-export NVM_LAZY_LOAD=true
-export NVM_COMPLETION=true
-plugins=(zsh-nvm zsh-autosuggestions)
-source $ZSH/oh-my-zsh.sh
-
-
 export PATH=$PATH:$HOME/flutter/bin
 export PATH=$PATH:$HOME/.pub-cache/bin
 export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
@@ -19,7 +12,15 @@ export PATH=$PATH:`echo $HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/
 
 export PATH=$PATH:$HOME/.local/bin
 
-# pip zsh completion start
+# zsh plugins
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+
+# nvm
+export NVM_LAZY_LOAD=true
+export NVM_COMPLETION=true
+. ~/.zsh/zsh-nvm/zsh-nvm.plugin.zsh
+
+# pip zsh completion
 function _pip_completion {
   local words cword
   read -Ac words
@@ -36,5 +37,6 @@ alias cls=clear
 alias pow=poweroff
 alias py=python
 alias docker=podman
+alias nano=micro
 
 eval "$(starship init zsh)"
