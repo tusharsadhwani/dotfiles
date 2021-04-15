@@ -14,7 +14,6 @@ Equinusocio.vsc-material-theme
 equinusocio.vsc-material-theme-icons
 esbenp.prettier-vscode
 fabiospampinato.vscode-todo-plus
-GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
 golang.go
 kumar-harsh.graphql-for-vscode
@@ -26,7 +25,6 @@ ms-python.vscode-pylance
 ms-toolsai.jupyter
 ms-vscode-remote.remote-wsl
 ms-vscode.cpptools
-ms-vsliveshare.vsliveshare
 msjsdiag.debugger-for-chrome
 octref.vetur
 patbenatar.advanced-new-file
