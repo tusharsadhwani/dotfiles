@@ -12,6 +12,15 @@ export PATH=$PATH:`echo $HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/
 
 export PATH=$PATH:$HOME/.local/bin
 
+# zsh settings
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
+
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
 # zsh plugins
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 
