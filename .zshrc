@@ -1,17 +1,3 @@
-export PATH=$PATH:$HOME/flutter/bin
-export PATH=$PATH:$HOME/.pub-cache/bin
-export CHROME_EXECUTABLE=/usr/bin/google-chrome-stable
-
-export GOPATH=$HOME/go
-export GOROOT=$HOME/.go
-export PATH=$GOPATH/bin:$PATH
-
-export PATH=$PATH:$HOME/Android/Sdk
-export PATH=$PATH:$HOME/Android/Sdk/platform-tools
-export PATH=$PATH:`echo $HOME/.local/share/JetBrains/Toolbox/apps/AndroidStudio/*/*/jre/bin`
-
-export PATH=$PATH:$HOME/.local/bin
-
 # zsh settings
 bindkey "^[[1;5C" forward-word
 bindkey "^[[1;5D" backward-word
@@ -47,5 +33,6 @@ alias pow=poweroff
 alias py=python
 alias docker=podman
 alias nano=micro
+alias grep='grep --color=auto --exclude-dir={.git,.vscode,node_modules,build,dist,public,.cache,.mypy_cache,__pycache__,.tox}'
 
 eval "$(starship init zsh)"
