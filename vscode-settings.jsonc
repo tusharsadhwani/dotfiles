@@ -32,6 +32,25 @@
   "dart.previewLsp": true,
   "debug.openDebug": "openOnDebugBreak",
   "diffEditor.ignoreTrimWhitespace": false,
+  // One Dark Pro fixes - https://github.com/Binaryify/OneDark-Pro/issues/394
+  "editor.semanticTokenColorCustomizations": {
+    "[One Dark Pro]": {
+      "rules": {
+        "variable:dart": {
+          "foreground": "#EF596F" // #E06C75 is the non-vivid colour
+        },
+        "property:dart": {
+          "foreground": "#EF596F"
+        },
+        "annotation:dart": {
+          "foreground": "#EF596F"
+        },
+        "parameter:dart": {
+          "foreground": "#EF596F"
+        }
+      }
+    }
+  },
   "editor.fontFamily": "FiraCode NF, Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
@@ -88,7 +107,7 @@
   "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.allowChords": false,
   "terminal.integrated.shellArgs.windows": ["-NoLogo"],
-  "vsicons.dontShowNewVersionMessage": false,
+  "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#5C6BC0",
@@ -113,7 +132,8 @@
     "menubar.selectionForeground": "#5C6BC0",
     "editor.findMatchBorder": "#5C6BC0",
     "selection.background": "#5C6BC040",
-    "statusBarItem.remoteBackground": "#5C6BC0"
+    "statusBarItem.remoteBackground": "#5C6BC0",
+    "terminal.ansiGreen": "#339966"
   },
   "workbench.colorTheme": "One Dark Pro",
   "workbench.editorAssociations": [
