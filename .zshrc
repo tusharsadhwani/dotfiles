@@ -6,9 +6,10 @@ HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+setopt histignorespace
 
 # zsh plugins
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+. ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.plugin.zsh
 
 # nvm
 export NVM_LAZY_LOAD=true
@@ -26,6 +27,7 @@ function _pip_completion {
 }
 compctl -K _pip_completion pip
 # pip zsh completion end
+export PIP_REQUIRE_VIRTUALENV=true
 
 alias c=clear
 alias cls=clear
@@ -34,5 +36,6 @@ alias py=python
 alias docker=podman
 alias nano=micro
 alias grep='grep --color=auto --exclude-dir={.git,.vscode,node_modules,build,dist,public,.cache,.mypy_cache,__pycache__,.tox}'
+alias copy='xsel --clipboard'
 
 eval "$(starship init zsh)"
