@@ -104,9 +104,16 @@
     }
   },
   "terminal.integrated.fontFamily": "MesloLGS NF, FiraCode NF, Fira Code",
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "terminal.integrated.allowChords": false,
-  "terminal.integrated.shellArgs.windows": ["-NoLogo"],
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell",
+      "args": ["-NoLogo"]
+    }
+  },
+  "terminal.integrated.shell.linux": "/usr/bin/zsh",
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorCustomizations": {
