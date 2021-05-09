@@ -31,12 +31,6 @@ My dotfiles for windows 10 and linux
 - Flutter - GitHub
 - Go - direct download
 - Jetbrains Toolbox (for android studio)
-- Windows Terminal
-  - [settings](./windows-terminal-settings.jsonc)
-- Powershell
-  - [gsudo](https://github.com/gerardog/gsudo)
-  - [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)
-    - [profile](./powershell-profile.ps1)
 - PowerToys
 - Docker Desktop
 - [HashTab](http://implbits.com/products/hashtab/)
@@ -54,3 +48,8 @@ My dotfiles for windows 10 and linux
 - [zshrc](./.zshrc)
   - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
   - [zsh-nvm](https://github.com/lukechilds/zsh-nvm)
+- Windows Terminal
+  - [settings](./windows-terminal-settings.jsonc)
+- Powershell
+  - [gsudo](https://github.com/gerardog/gsudo)
+    - [profile](./powershell-profile.ps1)
