@@ -35,5 +35,9 @@
   {
     "key": "ctrl+m",
     "command": "-editor.action.toggleTabFocusMode"
+  },
+  {
+    "key": "ctrl+k ctrl+g",
+    "command": "git.pushWithTags"
   }
 ]
