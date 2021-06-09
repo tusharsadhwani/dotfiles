@@ -35,7 +35,7 @@ alias pow=poweroff
 alias py=python
 alias docker=podman
 alias nano=micro
-alias grep='grep --color=auto --exclude-dir={.git,.vscode,node_modules,build,dist,public,.cache,.mypy_cache,__pycache__,.tox}'
+alias grep='grep --color=auto --exclude-dir={.git,.vscode,venv,node_modules,build,dist,public,.cache,.mypy_cache,__pycache__,.tox}'
 alias copy='xsel --clipboard'
 
 eval "$(starship init zsh)"
