@@ -183,13 +183,7 @@
   },
   "[python]": {
     "editor.formatOnType": true,
-    "editor.rulers": [
-      {
-        "column": 72,
-        "color": "#282828"
-      },
-      100
-    ],
+    "editor.rulers": [{ "column": 72, "color": "#ffffff10" }, 100],
     "editor.tabSize": 4
   },
   "[typescript]": {
