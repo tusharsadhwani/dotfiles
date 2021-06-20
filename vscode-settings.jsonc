@@ -54,6 +54,7 @@
   "editor.fontFamily": "FiraCode NF, Fira Code",
   "editor.fontLigatures": true,
   "editor.formatOnSave": true,
+  "editor.linkedEditing": true,
   "editor.renderControlCharacters": false,
   "editor.rulers": [80],
   "editor.suggestSelection": "first",
