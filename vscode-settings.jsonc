@@ -74,6 +74,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "materialTheme.accent": "Indigo",
   "oneDarkPro.vivid": true,
+  "python.formatting.provider": "autopep8",
   "python.formatting.autopep8Args": ["--max-line-length=100"],
   "python.languageServer": "Pylance",
   "python.linting.lintOnSave": true,
