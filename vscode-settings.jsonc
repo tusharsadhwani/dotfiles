@@ -91,12 +91,13 @@
     "--good-names=i,j,k,T"
   ],
   "python.linting.pylintCategorySeverity.refactor": "Information",
-  "python.linting.pylintEnabled": true,
+  "python.linting.pylintEnabled": false,
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
   "settingsSync.ignoredSettings": [
-    "terminal.integrated.rendererType",
-    "python.pythonPath"
+    "python.pythonPath",
+    "oneDarkPro.vivid",
+    "terminal.integrated.rendererType"
   ],
   "svgPreview.autoOpen": false,
   "svgPreview.style": {
@@ -146,12 +147,9 @@
     "terminal.ansiGreen": "#339966"
   },
   "workbench.colorTheme": "One Dark Pro",
-  "workbench.editorAssociations": [
-    {
-      "viewType": "jupyter.notebook.ipynb",
-      "filenamePattern": "*.ipynb"
-    }
-  ],
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter.notebook.ipynb"
+  },
   "workbench.iconTheme": "vscode-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[dart]": {
