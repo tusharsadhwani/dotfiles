@@ -61,9 +61,32 @@
   "editor.tabSize": 2,
   "emmet.includeLanguages": {
     "vue-html": "html",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "django-html": "html"
   },
   "explorer.confirmDragAndDrop": false,
+  "files.exclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true,
+    "**/venv/**": true,
+    "**/__pycache__/**": true,
+    "**/.mypy_cache/**": true,
+    "**/.pytest_cache/**": true,
+    "**/.tox/**": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/.hg/store/**": true,
+    "**/venv/**": true,
+    "**/__pycache__/**": true,
+    "**/.mypy_cache/**": true,
+    "**/.pytest_cache/**": true,
+    "**/.tox/**": true
+  },
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.followTagsWhenSync": true,
