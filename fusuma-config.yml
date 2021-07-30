@@ -1,0 +1,9 @@
+swipe:
+  3:
+    up:
+      command: "xdotool key ctrl+super+Up"
+    down:
+      command: "xdotool key ctrl+super+Down"
+
+threshold:
+  swipe: 0.1
