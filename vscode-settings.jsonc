@@ -98,7 +98,7 @@
   "materialTheme.accent": "Indigo",
   "oneDarkPro.vivid": true,
   "python.formatting.autopep8Args": ["--max-line-length=100"],
-  "python.formatting.provider": "autopep8",
+  "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
   "python.linting.lintOnSave": true,
   "python.linting.mypyArgs": [
@@ -117,11 +117,7 @@
   "python.linting.pylintEnabled": false,
   "python.showStartPage": false,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
-  "settingsSync.ignoredSettings": [
-    "python.pythonPath",
-    "oneDarkPro.vivid",
-    "terminal.integrated.rendererType"
-  ],
+  "settingsSync.ignoredSettings": ["python.pythonPath"],
   "svgPreview.autoOpen": false,
   "svgPreview.style": {
     "html": {
@@ -140,7 +136,8 @@
       "args": ["-NoLogo"]
     }
   },
-  "terminal.integrated.shell.linux": "/usr/bin/zsh",
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "update.mode": "none",
   "vsicons.dontShowNewVersionMessage": true,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.colorCustomizations": {
@@ -171,9 +168,10 @@
   },
   "workbench.colorTheme": "One Dark Pro",
   "workbench.editorAssociations": {
-    "*.ipynb": "jupyter.notebook.ipynb"
+    "*.ipynb": "jupyter-notebook"
   },
   "workbench.iconTheme": "vscode-icons",
+  "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "newUntitledFile",
   "[dart]": {
     "editor.formatOnSave": true,
