@@ -6,8 +6,6 @@ bibhasdn.django-html
 bradlc.vscode-tailwindcss
 BriteSnow.vscode-toggle-quotes
 burkeholland.simple-react-snippets
-CoenraadS.bracket-pair-colorizer
-CoenraadS.bracket-pair-colorizer-2
 Dart-Code.dart-code
 Dart-Code.flutter
 DavidAnson.vscode-markdownlint
@@ -20,16 +18,18 @@ fabiospampinato.vscode-todo-plus
 GitHub.github-vscode-theme
 GitHub.vscode-pull-request-github
 golang.go
+kevinkyang.auto-comment-blocks
 kumar-harsh.graphql-for-vscode
 liximomo.sftp
+mads-hartmann.bash-ide-vscode
 miguelsolorio.fluent-icons
 ms-azuretools.vscode-docker
 ms-python.python
 ms-python.vscode-pylance
 ms-toolsai.jupyter
+ms-toolsai.jupyter-keymap
 ms-vscode-remote.remote-wsl
 ms-vscode.cpptools
-msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 octref.vetur
 patbenatar.advanced-new-file
@@ -39,6 +39,7 @@ rangav.vscode-thunder-client
 ritwickdey.LiveServer
 SimonSiefke.svg-preview
 tamasfe.even-better-toml
+tonybaloney.vscode-pets
 traBpUkciP.wolf
 Tyriar.lorem-ipsum
 ultram4rine.vscode-choosealicense
