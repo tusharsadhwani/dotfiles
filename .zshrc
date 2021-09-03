@@ -41,3 +41,8 @@ alias grep='grep --color=auto --exclude-dir={.git,.vscode,venv,node_modules,buil
 alias copy='xsel --clipboard'
 
 eval "$(starship init zsh)"
+
+export PATH=$HOME/.vscvm:$PATH
+if [ ! -e "/tmp/vscvm_check_update" ]; then
+  vscvm_check_update
+fi
