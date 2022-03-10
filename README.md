@@ -51,5 +51,5 @@ My dotfiles for windows 10 and linux
 - Windows Terminal
   - [settings](./windows-terminal-settings.jsonc)
 - Powershell
+  - [profile](./powershell-profile.ps1)
   - [gsudo](https://github.com/gerardog/gsudo)
-    - [profile](./powershell-profile.ps1)
