@@ -69,6 +69,7 @@
   "git.autofetch": true,
   "git.enableSmartCommit": true,
   "git.followTagsWhenSync": true,
+  "gitlens.codeLens.enabled": false,
   "gitlens.keymap": "none",
   "go.toolsManagement.autoUpdate": true,
   "go.useLanguageServer": true,
@@ -158,6 +159,12 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.productIconTheme": "fluent-icons",
   "workbench.startupEditor": "newUntitledFile",
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "[astro-markdown]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
   "[dart]": {
     "editor.formatOnSave": true,
     "editor.formatOnType": true,
