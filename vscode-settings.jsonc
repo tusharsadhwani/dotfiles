@@ -77,7 +77,7 @@
   "liveServer.settings.donotShowInfoMsg": true,
   "materialTheme.accent": "Indigo",
   "oneDarkPro.vivid": true,
-  "python.formatting.autopep8Args": ["--max-line-length=100"],
+  "python.formatting.autopep8Args": ["--max-line-length=88"],
   "python.formatting.provider": "black",
   "python.languageServer": "Pylance",
   "python.linting.lintOnSave": true,
@@ -194,7 +194,7 @@
   },
   "[python]": {
     "editor.formatOnType": true,
-    "editor.rulers": [{ "column": 72, "color": "#ffffff10" }, 100],
+    "editor.rulers": [{ "column": 72, "color": "#ffffff10" }, 88],
     "editor.tabSize": 4
   },
   "[typescript]": {
