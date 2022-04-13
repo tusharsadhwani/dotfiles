@@ -5,9 +5,7 @@
     "dist": true
   },
   "advancedNewFile.convenienceOptions": ["root"],
-  "auto-comment-blocks.singleLineBlockOnEnter": true,
   "dart.flutterRunAdditionalArgs": ["--web-port=5000", "--web-renderer=html"],
-  "dart.previewLsp": true,
   "debug.openDebug": "openOnDebugBreak",
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.bracketPairColorization.enabled": true,
@@ -32,7 +30,6 @@
   },
   "editor.fontFamily": "FiraCode NF, Fira Code",
   "editor.fontLigatures": true,
-  "editor.formatOnSave": true,
   "editor.linkedEditing": true,
   "editor.renderControlCharacters": false,
   "editor.rulers": [80],
@@ -95,9 +92,12 @@
   ],
   "python.linting.pylintCategorySeverity.refactor": "Information",
   "python.linting.pylintEnabled": false,
-  "python.showStartPage": false,
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
   "settingsSync.ignoredExtensions": ["eyhn.vscode-vibrancy"],
-  "settingsSync.ignoredSettings": ["python.pythonPath"],
   "svgPreview.autoOpen": false,
   "svgPreview.style": {
     "html": {
@@ -194,7 +194,7 @@
   },
   "[python]": {
     "editor.formatOnType": true,
-    "editor.rulers": [{ "column": 72, "color": "#ffffff10" }, 88],
+    "editor.rulers": [{ "column": 80, "color": "#ffffff10" }, 88],
     "editor.tabSize": 4
   },
   "[typescript]": {
